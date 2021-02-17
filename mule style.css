@@ -1,0 +1,144 @@
+*{
+    margin:1pt;
+    padding: 0;
+
+}
+
+@media(min-width:50px)
+{
+  .container-1{
+   display: flex;        
+} 
+.container-1 div{border: 1px rgb(145, 69, 69) solid; padding:5%;}
+.box-1{ flex: 1; order: 1;}
+.box-2{ flex: 1;  order: 2;}
+
+.flex01{background-color:rgb(167, 140, 107)}
+
+.body{width: 100%;  padding: auto; padding-top: 2%; background-color:rgba(216, 173, 137, 0.164);}
+p{color: rgb(129, 21, 21); text-align: justify;}
+
+@media(min-width: 500px) 
+{
+#mainheader{
+    background-image: url(images\(8\).jpg); height:fit-content;  background: size:30px;
+    text-align: center; 
+    padding:2%;
+    background-repeat: no-repeat;
+    width: auto;
+
+}
+nav{ text-decoration:rgb(38, 255, 183); text-align:center; 
+    font-family:aquaImpact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position:webkit-sticky;
+    font-size:40pt; color:rgba(240, 255, 255, 0.425);}
+
+#HOME{font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, 'Times New Roman', Times, serif;
+     color:rgb(248, 33, 176); font-size:20pt; width: auto; text-align:justify;}
+}
+.botton {
+        font-family:Georgia, 'Times New Roman', Times, serif
+        width: 100%;
+        position:first-line;
+    }
+.botton ul{
+        height: 50px;
+        float: right;
+        margin-top: -30%;
+    }
+.botton ul li{
+        display: inline-block;
+        padding: 40px 15px;
+        text-transform: uppercase;
+        color: rgb(240, 104, 104);
+        font-size: 20px;
+    }
+.botton :hover{color: rgb(121, 188, 255);}
+
+a{
+    text-decoration: none; 
+    color:#73b4ff; font-style:italic; 
+    font-size: 15pt;
+    background-size: 100%; 
+    background-color:rgb(100, 70, 29);
+    padding: 1%;
+}
+.intro{color:black; background-color:rgb(150, 34, 34); padding: 5%; padding-top: 1%;padding-bottom: 1%; 
+font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
+
+#story00{font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-size: 20pt;}
+
+#story1{
+    color:magenta;
+    background-color:darkgoldenrod;
+    color:black;  
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    color:magenta;  text-transform: capitalize; 
+    padding: 5%; padding-top: 0%;
+    animation: delay 1px;
+}
+
+#story01{font-family:Verdana, Geneva, Tahoma, sans-serif ; font-size: 20pt;}
+
+#mainbar{width: 50%; float:left; box-sizing:content-box; background-color: brown; padding: 5%;}
+#sidebar{width: 50%; float: right; box-sizing:content-box; background-color: brown;padding: 5%;}
+.contact{
+    font-size:300% ;
+}
+#story2{
+    color:cornsilk;
+    background-color: rgb(182, 179, 179); background-color: gainsboro; 
+    color:black;  
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; sans-serif;
+    text-decoration: none;
+    text-align: justify;
+    color:coral;  text-transform: capitalize; 
+    padding: 5%;  padding-top: 0%;
+}
+
+#story02{font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-size: 20pt;}
+
+#story3{
+    color: black;
+    background-color:darkslategrey; background-color: gainsboro; 
+    color:darkslategray;  
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    color:darkorange;  text-transform: capitalize; 
+    padding: 5%;  padding-top: 0%;
+}
+
+#story03{font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-size: 20pt;}
+
+#story4{
+    color: black;
+    background-color: rgba(179, 182, 182, 0.479); background-color: gainsboro; 
+    color:black;  
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    color: black;  text-transform: capitalize; 
+    padding: 5%;  padding-top: 0%;
+}
+#story04{font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-size: 20pt;}
+
+#story04{font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; font-size: 20pt;}
+
+
+
+
+@media (max-width: 500px) 
+{
+#mainheader{
+    /*background-image: url(images(8).jpg);background-size: cover; */
+    text-align: justify; 
+    padding: 1%;
+    /*background-repeat: no-repeat;*/
+    width: auto;
+}
+#HOME{font-family:none; color:rgb(180, 180, 255); font: size 20px; width: auto; text-align: center;}
+}
+
+   
+
+
